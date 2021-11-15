@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .page {
+            height: 100vh;
+            background-color: #eee;
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: 50px auto 50px;
+            grid-template-areas: "logo logo nav nav nav nav nav nav nav nav "
+                "cont cont cont cont cont cont cont cont  side side"
+                "foot foot foot foot foot foot foot foot foot foot";
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 5px;
+            margin-right: 5px;
+            margin-left: 10px;
+            background-color: rgb(245, 150, 229);
+        }
+
+        h2 {
+            grid-area: logo;
+            background-color: aqua;
+            color: black;
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: rgb(170, 106, 202);
+            color: black;
+        }
+
+        section {
+            grid-area: cont;
+            background-color: forestgreen;
+        }
+
+        footer {
+            grid-area: foot;
+            background-color: gray;
+            color: white;
+        }
+
+        aside {
+            grid-area: side;
+            background-color: fuchsia;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h2>Elzero</h2>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <section>Section</section>
+        <aside>Siedbar</aside>
+        <footer>Footer</footer>
+
+    </div>
+
+
+</body>
+
+</html>

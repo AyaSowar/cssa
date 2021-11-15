@@ -1,0 +1,76 @@
+
+.sh1-1{
+    background-color: rgba(169, 169, 169, 0.993);
+    border: 5px solid red;
+    outline: 5px solid black;
+    display: inline-block;
+    color: black;
+    padding: 40px;
+    margin: 20px;
+    font-size: 25px;
+ 
+
+
+}
+.sh2-1{
+    background-color: rgba(169, 169, 169, 0.993);
+   border-color: blue green;
+   border-style: solid;
+   border-width: 5px;
+   outline: 5px solid black;
+    display: inline-block;
+    color: black;
+    padding: 40px;
+    margin: 20px;
+    font-size: 25px;
+ 
+
+
+}
+.sh3-1{
+    background-color: rgba(169, 169, 169, 0.993);
+   border-color: red green blue yellow;
+   border-style:dashed;
+   border-width: 5px;
+   outline: 5px solid black;
+    display: inline-block;
+    color: black;
+    padding: 40px;
+    margin: 20px;
+    font-size: 25px;
+}
+.sh1-2{
+    background-color: rgba(169, 169, 169, 0.993);
+    color: black;
+    padding: 40px;
+    border-left: 8px solid rgb(243, 84, 164);
+    display: block;
+    width: 400px;
+    margin: 20px;
+    font-size: 25px;
+
+}
+.sh2-2{
+    background-color: rgba(169, 169, 169, 0.993);
+    color: black;
+    padding: 40px;
+    border-left: 8px solid rgb(243, 84, 164);
+    display: block;
+    width: 400px;
+    margin: 20px;
+    visibility: hidden;
+    font-size: 25px;
+
+
+}
+.sh3-2{
+    background-color: rgba(169, 169, 169, 0.993);
+    color: black;
+    padding: 40px;
+    border-left: 8px solid rgb(84, 211, 243);
+    display: block;
+    width: 400px;
+    margin: 20px;
+    font-size: 25px;
+
+}

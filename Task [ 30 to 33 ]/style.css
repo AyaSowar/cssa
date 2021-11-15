@@ -1,0 +1,104 @@
+div{
+  position: relative;
+}
+.green{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(28, 223, 103);
+  top: 234px;
+  left: 37px;
+  z-index: 60; 
+}
+
+.red{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(240, 12, 69);
+  top: 146px;
+  left: 51px;
+  z-index: 80;
+}
+.blue{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(21, 98, 214, 0.884);
+  left: 20px;
+  top: 20px;
+  z-index: 20;
+
+}
+.black{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  top: -65px;
+  left: 20px;
+}
+.A2{
+  width: 400px;
+  height: 250px;
+  margin: auto;
+  background-color: rgb(252, 250, 248);
+  font-size: 30px;
+  font-weight: 300px;
+  text-align: center;
+  padding: 20px;
+ 
+  position: relative;
+  left: 70px;
+  overflow: hidden;
+  border: 2px solid rgb(245, 50, 99);
+  border-color: rgb(240, 12, 69),rgb(65, 65, 250);
+  
+}
+.top-left{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(16, 135, 233);
+  position: relative;
+  top: -275px;
+  left: -247px;
+  z-index: 109;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+ width: 400px;
+ margin: auto;
+}
+
+table{
+  width: 100%; 
+  border: 1px solid #ccc; 
+  border-spacing: 2px;
+
+}
+tabel td{
+  padding: 15px;
+  background-color: #eee;
+}
+
+
+
+
+
+
+tabel thead td{
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}

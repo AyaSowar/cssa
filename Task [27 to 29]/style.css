@@ -1,0 +1,61 @@
+.parent{
+    width: 800px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    color: black;
+    
+}
+.parent div{
+   background-color:#DDDDDD;
+   padding: 15px 0px;
+   margin: 10px;
+  
+}
+.parent div.a3{
+    overflow: hidden;
+}
+.parent div.a3 div{
+    padding-left: 30px;
+    float: left;
+    width: calc((800px-20px)/3);
+    margin: 0px 20px;
+
+}
+.parent div.a2{
+    overflow: hidden;
+    
+}
+.parent div.a2 div{
+    float: left;
+   width: calc((800px-10px)/2);
+    margin: 0px 10px;
+    
+}
+.parent div.a4{
+    overflow: hidden;
+}
+.parent div.a4 div{
+    float: left;
+    width: calc((800px-30px)/4);
+    margin: 0px 10px;
+}
+.clear{
+    clear: both;
+}
+div {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #B3B3B3; /* Get The Background From Image */
+  color: black;
+}
+.one{
+  background-color:rgb(179 179 179 / 10%);
+
+}
+.two{
+    opacity: 0.2;
+}

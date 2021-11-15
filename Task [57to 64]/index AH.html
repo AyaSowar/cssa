@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid A</title>
+    <style>
+        .continer {
+            background-color: rgb(228, 12, 228);
+            display: grid;
+            grid-template-areas:
+                "head head head head"
+                "main main.side"
+                "foot foot foot foot";
+
+        }
+
+        .continer header,
+        main,
+        aside,
+        footer {
+            background-color: rgb(161, 231, 20);
+            color: black;
+            padding: 10px;
+            font-weight: bold;
+            margin: 10px;
+
+        }
+
+
+        .child1 {
+            grid-area: head;
+        }
+
+        .child2 {
+            grid-area: main;
+        }
+
+        .child3 {
+            grid-area: side;
+        }
+
+        .child4 {
+            grid-area: foot;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="continer">
+        <header class="child1 child">Header</header>
+        <main class="child2 child">Main</main>
+        <aside class="child3 child">Sidbar</aside>
+        <footer class="child4 child">Footer</footer>
+
+    </div>
+
+</body>
+
+</html>

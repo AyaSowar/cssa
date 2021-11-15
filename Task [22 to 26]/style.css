@@ -1,0 +1,117 @@
+.pr1{
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border: 4px solid orangered;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.pr1 p{
+    background-color: rgb(212, 212, 192);
+    padding: inherit;
+    border: inherit;
+    margin: 20px;
+}
+.pr{
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border: 4px solid rgb(66, 201, 189);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.pr p{
+     background-color: rgb(212, 212, 192);
+    padding: inherit;
+    border: inherit;
+    margin: 20px;
+}
+.elzero1,
+.elzero2,
+.elzero3{
+    
+    text-align: center;
+    margin-bottom: 10px;
+  
+    
+}
+.elzero1{
+    font-family: sans-serif;
+    font-weight: 300px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-size: 50px;
+   
+
+
+}
+.elzero2{
+    font-family: 'Cairo', sans-serif;
+   font-family: sans-serif;
+    font-weight: bold;
+    
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font-size: 50px;
+   
+
+}
+.elzero3{
+    
+ font-size: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight:bold;
+   font-variant: small-caps;
+
+   word-spacing: 5px;
+}
+**************
+html{
+    font-size: 20px;
+}
+
+.elzero4{
+ font-size: 2.5rem;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+    text-transform: capitalize;
+}
+ 
+    
+
+
+.elzero5{
+    font-size: 2rem;
+     text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+    text-transform: capitalize;
+
+}
+.elzero6{
+     font-size: 1.5rem;
+      text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin-bottom: 10px;
+    text-transform: capitalize;
+
+
+}
+

@@ -1,0 +1,34 @@
+.parent .child .title{
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+.parent p ,.title{
+    color: green;
+}
+
+
+.one,
+.two,
+.three,
+.four{
+     background-color: maroon;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    min-width: 70px;
+    max-width: 400px;
+    max-height: 100px;
+    overflow: hidden;
+
+}
+.one{
+    width: 70px;
+}
+.two {
+width: 300px;
+}
+.three {
+    width: 350px;  
+}
